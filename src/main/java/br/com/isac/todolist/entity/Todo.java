@@ -1,5 +1,7 @@
 package br.com.isac.todolist.entity;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -67,6 +69,11 @@ public class Todo {
 	}
 	public void setPrioridade(int prioridade) {
 		this.prioridade = prioridade;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		return EqualsBuilder.reflectionEquals(obj, this);
 	}
 	
 }
