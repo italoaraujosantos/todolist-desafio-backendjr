@@ -3,7 +3,7 @@
 </h1>
 
 
-API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.com/italoaraujosantos/desafio-junior-backend-simplify) para pessoas desenvolvedoras backend júnior, que se candidatam para a Simplify.
+API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.com/italoaraujosantos/todolist-desafio-backendjr/) para pessoas desenvolvedoras backend júnior, que se candidatam para a Simplify.
 
 
 ## Tecnologias
